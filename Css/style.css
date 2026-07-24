@@ -1,0 +1,154 @@
+h1{
+    color: #fc7500;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background:rgb(242, 227, 167);
+
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding-top:90px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu a:hover{
+    color: rgb(255, 97, 5);
+}
+.menu-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 242, 5);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.menu-button:hover{
+    background-color: rgba(239, 207, 27, 0.825);
+}
+
+.egg{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:60px;
+    background:#fff8dc;
+}
+
+.egg-text{
+    width:45%;
+}
+
+.egg-text h1{
+    color:#ff6600;
+}
+
+
+.egg-image{
+    width:50%;
+}
+
+.egg-image img{
+    width:100%;
+    border-radius:20px;
+}
+
+
+.egg-box{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    padding:60px;
+    background:#ffffff;
+}
+
+.cardegg-Icons{
+    background:#fff8dc;
+    text-align:center;
+    padding:25px;
+    border-radius:15px;
+}
+
+.egg-Icons img{
+    width:80px;
+    height:80px;
+}
+
+.egg-Icons h3{
+    margin-top:15px;
+}
+
+.egg-Icons p{
+    color:#555;
+}
+
+
+
+
+.review{
+    width:300px;
+    background:#fff8dc;
+    padding:20px;
+    text-align:center;
+    border-radius:15px;
+}
+
+.review img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+
+.review p{
+    margin:15px 0;
+}
+
+.review h4{
+    color:#ff6600;
+}
+
+.contact{
+    background:#ff9800;
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+.contact-button{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#ff9800;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.contact-button:hover{
+    background:#ffe0b2;
+}
