@@ -168,6 +168,13 @@ body{
     background-color: #efcf1bd2;
 }
 
+.menu-egg{
+    text-align: center;
+}
+.menu-eggs{
+    text-align: center;
+}
+
 .egg{
     display:flex;
     align-items:center;
@@ -271,4 +278,88 @@ body{
 }
 .Page{
     color: #000000 ;
+}
+
+.Omelet{
+    background-color: #f8f7f4;
+    
+}
+.menu-egg{
+    color: #000000;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
+}
+
+.product{
+    background: #fff8dc;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.product img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-info{
+    padding-top: 10px;
+}
+
+.promotion{
+    color:white;
+    text-align: center;
+    background-color: #ff6600;
+}
+.Contact{
+    color: #000;
+}
+
+.contact-form{
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff8dc;
+    border-radius: 15px;
+}
+
+.contact-form label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+.contact-form textarea{
+    resize: vertical;
+}
+
+.contact-form button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background: #ff7b00;
 }
