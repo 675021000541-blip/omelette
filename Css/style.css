@@ -363,3 +363,24 @@ body{
 .contact-form button:hover{
     background: #ff7b00;
 }
+
+.Page{
+    color: white;
+}
+
+.Page-Header{
+    color: white;
+}
+
+.Info-egg{
+    color: white;
+}
+
+.map{
+    color: white;
+}
+
+.Contact {
+    color: white;
+    text-align: center;
+}
